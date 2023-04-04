@@ -1,4 +1,13 @@
-# Practicing Test Driven Development with React-Jest
+To run the app
+### npm i
+### npm start
+
+To run the test
+### npm i
+### npm run test
+
+
+# Test Driven Development with React-Jest
 
 ## 01 Unit testing
 
