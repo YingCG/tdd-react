@@ -1,5 +1,5 @@
-const fetch = require("node-fetch");
 import { getPeoplePromise, getPeople } from "./SwapiApi";
+const fetch = require("node-fetch");
 
 describe("calls swapi to get people", () => {
   const input = data.count;

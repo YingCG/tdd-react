@@ -6,6 +6,7 @@ function AddInput() {
 
   const addTodo = () => {
     setTodoList((todoList) => [...todoList, { todo }]);
+    setTodo("");
   };
 
   return (
@@ -19,7 +20,7 @@ function AddInput() {
       />
       <button onClick={addTodo}>Add</button>
 
-      <p>{todoList.map((todo) => todo)}</p>
+      {todoList.map((todo, index) => (<p key={index}>{todo.todo}</p>))}
     </>
   );
 }
